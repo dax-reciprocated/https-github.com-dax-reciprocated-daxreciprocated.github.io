@@ -15,17 +15,17 @@ body {
     background-size: cover;
 }
 
-/* Dark overlay on top of the background logo */
+/* dark overlay over the background logo */
 .overlay {
     min-height: 100vh;
     width: 100%;
-    background: rgba(0, 0, 0, 0.75);
+    background: rgba(0, 0, 0, 0.8);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-/* Centered content box */
+/* centered content box */
 .content {
     max-width: 900px;
     width: 100%;
@@ -33,7 +33,7 @@ body {
     text-align: center;
 }
 
-/* Typography and colors */
+/* typography and colors */
 header h1 {
     font-size: 2.5rem;
     letter-spacing: 2px;
@@ -47,11 +47,12 @@ header h1 {
     margin-bottom: 30px;
 }
 
+/* sections */
 .section {
     margin-bottom: 30px;
 }
 
-/* Blood red for headings, white for body text */
+/* blood red headings, white body text */
 .section h2 {
     font-size: 1.8rem;
     margin-bottom: 10px;
@@ -104,14 +105,14 @@ header h1 {
     color: #f0f0f0;
 }
 
-/* Footer */
+/* footer */
 footer {
     margin-top: 20px;
     font-size: 0.85rem;
     color: #dddddd;
 }
 
-/* Mobile adjustments */
+/* mobile adjustments */
 @media (max-width: 768px) {
     header h1 {
         font-size: 2rem;
