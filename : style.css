@@ -1,128 +1,88 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body{
+margin:0;
+padding:0;
+font-family: Arial, Helvetica, sans-serif;
+
+background-image: url("IMG_1109.png");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
 }
 
-html, body {
-    height: 100%;
+.overlay{
+background: rgba(0,0,0,0.65);
+padding:40px;
+max-width:800px;
+border-radius:10px;
 }
 
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #ffffff;
-    background: #000000 url("IMG_1109.png") no-repeat center center fixed;
-    background-size: cover;
+h1{
+color:#ff0000;
+font-size:42px;
+margin-bottom:5px;
 }
 
-/* dark overlay over the background logo */
-.overlay {
-    min-height: 100vh;
-    width: 100%;
-    background: rgba(0, 0, 0, 0.8);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+h2{
+color:white;
+margin-bottom:25px;
 }
 
-/* centered content box */
-.content {
-    max-width: 900px;
-    width: 100%;
-    padding: 30px;
-    text-align: center;
+.section-title{
+color:#ff0000;
+font-weight:bold;
+margin-top:20px;
 }
 
-/* typography and colors */
-header h1 {
-    font-size: 2.5rem;
-    letter-spacing: 2px;
-    color: #ffffff;
-    margin-bottom: 10px;
+p{
+color:white;
+line-height:1.6;
 }
 
-.tagline {
-    font-size: 1.2rem;
-    color: #ffffff;
-    margin-bottom: 30px;
+ul{
+color:white;
+text-align:left;
+max-width:600px;
+margin:auto;
 }
 
-/* sections */
-.section {
-    margin-bottom: 30px;
+li{
+margin-bottom:10px;
 }
 
-/* blood red headings, white body text */
-.section h2 {
-    font-size: 1.8rem;
-    margin-bottom: 10px;
-    color: #b30000; /* blood red */
+.button{
+display:inline-block;
+margin-top:20px;
+padding:14px 30px;
+background:#ff0000;
+color:white;
+text-decoration:none;
+font-weight:bold;
+border-radius:5px;
 }
 
-.section p {
-    font-size: 1rem;
-    line-height: 1.6;
-    color: #ffffff;
+.button:hover{
+background:#cc0000;
 }
 
-.section ul {
-    list-style: none;
-    margin-top: 10px;
-    margin-bottom: 10px;
+.email{
+margin-top:20px;
+color:white;
 }
 
-.section ul li {
-    margin-bottom: 6px;
-    color: #ffffff;
+.disclaimer{
+font-size:14px;
+margin-top:20px;
+opacity:0.85;
 }
 
-/* CTA button */
-.cta-button {
-    display: inline-block;
-    background: #b30000; /* blood red */
-    color: #ffffff;
-    padding: 12px 30px;
-    text-decoration: none;
-    border-radius: 4px;
-    font-weight: bold;
-    margin-top: 10px;
-    transition: transform 0.2s, background 0.2s;
-}
-
-.cta-button:hover {
-    transform: translateY(-2px);
-    background: #d00000;
-}
-
-.contact-email {
-    margin-top: 10px;
-    font-size: 0.95rem;
-}
-
-.disclaimer {
-    font-size: 0.85rem;
-    margin-top: 10px;
-    color: #f0f0f0;
-}
-
-/* footer */
-footer {
-    margin-top: 20px;
-    font-size: 0.85rem;
-    color: #dddddd;
-}
-
-/* mobile adjustments */
-@media (max-width: 768px) {
-    header h1 {
-        font-size: 2rem;
-    }
-
-    .section h2 {
-        font-size: 1.5rem;
-    }
-
-    .content {
-        padding: 20px;
-    }
+.copyright{
+margin-top:30px;
+font-size:13px;
+opacity:0.7;
 }
